@@ -1,3 +1,6 @@
+D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\config\SecurityConfig.java
+D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\controller\AreaController.java
+D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\controller\MainController.java
 D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\model\Area.java
 D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\model\AreaAlugavel.java
 D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\model\Comum.java
@@ -9,6 +12,8 @@ D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\m
 D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\model\SMS.java
 D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\model\StatusReserva.java
 D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\model\TipoMorador.java
+D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\repository\AreaRepository.java
+D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\repository\MoradorEntity.java
+D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\repository\ReservaRepository.java
 D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\ReservaApplication.java
-D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\security\SecurityConfig.java
 D:\Mestrado\Arquitetura de software\reserva\src\main\java\br\com\unesp\reserva\ServletInitializer.java
