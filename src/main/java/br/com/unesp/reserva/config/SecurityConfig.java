@@ -21,13 +21,19 @@ public class SecurityConfig {
         
         http.authorizeHttpRequests(authorize -> 
                 authorize
-                        .requestMatchers("/", "/login**").permitAll()
+                        .requestMatchers("/", "/login**", "/h2-console/**").permitAll()
                         .anyRequest()
                         .authenticated())                
                 .oauth2Login(oauth2 -> 
                 oauth2
                     .loginPage("/oauth2/authorization/google")
                     .defaultSuccessUrl("/", true)
+            )
+            .csrf(csrf -> csrf
+                .ignoringRequestMatchers("/h2-console/**")
+            )
+            .headers(headers -> headers
+                .frameOptions(frameOptions -> frameOptions.sameOrigin())
             );
         
         return http.build();

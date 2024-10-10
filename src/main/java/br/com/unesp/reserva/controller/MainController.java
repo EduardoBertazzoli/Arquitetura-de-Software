@@ -5,11 +5,13 @@
 package br.com.unesp.reserva.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
  * @author Carlo
  */
+@RestController
 public class MainController {
     @GetMapping("/")
     public String home() {
